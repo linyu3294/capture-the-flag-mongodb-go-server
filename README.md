@@ -1,4 +1,8 @@
 
-# hitch-hack-mongodb-go-server
+# capture-the-flag-mongodb-go-server
 
-	A Backend that's built with mongodb and written in golang.
+	Backend code that's written in Golang and built with MongoDB.
+
+Build Cmd
+
+    go build capture-the-flag.com/m

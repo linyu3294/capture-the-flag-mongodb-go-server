@@ -1,12 +1,21 @@
-module hitchhack.com/m
+module capture-the-flag.com/m
 
 go 1.14
 
 require (
-	4d63.com/gochecknoinits v0.0.0-20200108094044-eb73b47b9fc4 // indirect
-	github.com/gordonklaus/ineffassign v0.0.0-20200309095847-7953dde2c7bf // indirect
-	github.com/tebeka/selenium v0.9.9
-	github.com/tsenart/deadcode v0.0.0-20160724212837-210d2dc333e9 // indirect
+	github.com/gin-contrib/cors v1.3.1
+	github.com/gin-gonic/gin v1.6.3
+	github.com/go-playground/validator/v10 v10.4.1 // indirect
+	github.com/golang/protobuf v1.4.3 // indirect
+	github.com/json-iterator/go v1.1.10 // indirect
+	github.com/leodido/go-urn v1.2.1 // indirect
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
+	github.com/modern-go/reflect2 v1.0.1 // indirect
+	github.com/ugorji/go v1.2.2 // indirect
 	go.mongodb.org/mongo-driver v1.3.3
-	mvdan.cc/unparam v0.0.0-20200501210554-b37ab49443f7 // indirect
+	golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad // indirect
+	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e // indirect
+	golang.org/x/sys v0.0.0-20201223074533-0d417f636930 // indirect
+	google.golang.org/protobuf v1.25.0 // indirect
+	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
