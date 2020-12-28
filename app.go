@@ -25,10 +25,10 @@ func main() {
 
 	// Check the connection
 	err = client.Ping(context.TODO(), nil)
-
+	// Connect to local database
+	database := client.Database("local")
 	// Let router interact with event handlers in controllers
-	controller.AddPlayer(router)
-
+	controller.GetPlayers(database, router)
 
 	router.Run()
 
