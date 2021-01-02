@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfd56a15-51c3-4d85-b418-3365becb5fd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/players/inputs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/players/location.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/players/mutations.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/players/player.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/players/queries.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/players/schema.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/capture-the-flag-mongodb-go-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capture_the_flag_mongodb_go_server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/app.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/playerController.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/playerDAO.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m" beforeDir="false" afterPath="$PROJECT_DIR$/m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/player.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/PlayerService.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +65,24 @@
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build capture-the-flag-mongdb-go-server.com/m">
+  <component name="RunManager" selected="Go Build.go build location.go">
     <configuration name="Unnamed" type="GoAppEngineRunConfiguration" factoryName="Go App Engine" nameIsGenerated="true">
-      <module name="capture-the-flag-mongodb-go-server" />
+      <module name="capture_the_flag_mongodb_go_server" />
       <working_directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="capture_the_flag_mongodb_go_server" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="capture-the-flag.com/m" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build capture-the-flag-mongdb-go-server.com/m" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="capture-the-flag-mongodb-go-server" />
+      <module name="capture_the_flag_mongodb_go_server" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="DIRECTORY" />
       <filePath value="$PROJECT_DIR$/app.go" />
@@ -65,10 +90,36 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build location.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="capture_the_flag_mongodb_go_server" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/players/location.go" />
+      <package value="capture-the-flag.com/m" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="capture_the_flag_mongodb_go_server" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="capture-the-flag.com/m" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go App Engine.Unnamed" />
       <item itemvalue="Go Build.go build capture-the-flag-mongdb-go-server.com/m" />
+      <item itemvalue="Go Build.go build location.go" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build location.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
