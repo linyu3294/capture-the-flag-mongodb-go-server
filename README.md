@@ -1,5 +1,5 @@
 
-# capture-the-flag-mongodb-go-server
+# Capture The Flag (Server Code)
 
 	Backend code that's written in Golang and built with MongoDB and GraphQL.
 
